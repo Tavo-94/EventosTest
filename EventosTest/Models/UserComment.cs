@@ -1,11 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace EventosTest.Models
+﻿namespace EventosTest.Models
 {
-    public class EventToUsers
+    public class UserComment
     {
-        [Key]
         public int Id { get; set; }
+        public string TextComment { get; set; }
+        public DateTime PublishDate { get; set; }
         public string UserEmail { get; set; }
         public Guid EventId { get; set; }
 

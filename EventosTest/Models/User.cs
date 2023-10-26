@@ -14,6 +14,7 @@ namespace EventosTest.Models
         public AvatarUser AvatarUser { get; set; }
         public ICollection<Event> Events { get; set; }
         public ICollection<EventToUsers> EventToUsers { get; set; }
+        public ICollection<UserComment> UserComments { get; set; }
 
     }
 }
