@@ -2,6 +2,37 @@ html {
   font-size: 14px;
 }
 
+#tarjeta {
+    opacity: 0.6;
+    filter: alpha(opacity=40);
+}
+
+#menu {
+    padding: 20px;
+}
+
+
+#barra {
+    background-color: #261EA5;
+}
+
+#horayagenda {
+    background-color: #B6049D;
+    color: white;
+    margin: 10px;
+    padding: 2px;
+}
+
+#menulink {
+    text-decoration-line: none;
+    color: black;
+}
+
+#boton {
+    background-color: white;
+    color: #B6049D;
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
